@@ -1,0 +1,142 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Asking name -->
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>
+    <random>
+        <li>Hi <set name="name"><star/></set>.</li>
+        <li>Hello <set name="name"><star/></set>. How are you?</li>
+        <li>How are you <set name="name"><star/> </set></li>
+    </random>
+    </template>
+</category>
+<category>
+    <pattern>HI MY NAME IS *</pattern>
+    <template><srai>MY NAME IS <star/></srai></template>
+</category>
+<category>
+    <pattern>MY FRIENDS CALL ME *</pattern>
+    <template><srai>MY NAME IS <star/></srai></template>
+</category>
+<category>
+    <pattern>NAME IS *</pattern>
+    <template><srai>MY NAME IS <star/></srai></template>
+</category>
+
+<!-- Answering "how are you?"  -->
+<category>
+    <pattern>I AM FINE</pattern>
+    <template>
+    <random>
+        <li>glad to know that.</li>
+        <li>OK</li>
+        <li>Good to know that.</li>
+    </random>
+    </template>
+</category>
+<category>
+    <pattern>FINE</pattern>
+    <template><srai>I AM FINE</srai></template>
+</category>
+<category>
+    <pattern>I AM GOOD</pattern>
+    <template><srai>I AM FINE</srai></template>
+</category>
+
+<!-- ELECTIVES - asking domain -->
+<category>
+    <pattern>HELP IN ELECTIVES</pattern>
+    <template>what domain?</template>
+</category>
+<category>
+    <pattern>* HELP * ELECTIVES</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern>CAN YOU HELP ME IN CHOOSING ELECTIVES THIS SEMESTER</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern>CAN YOU HELP ME IN CHOOSING ELECTIVES</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern>I NEED HELP IN CHOOSING ELECTIVES</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern>I NEED HELP IN CHOOSING ELECTIVES</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+
+
+<!-- ELECTIVES - answering domain -->
+<category>
+    <pattern>INTERESTED IN *</pattern>
+    <that>WHAT DOMAIN</that>
+    <template>
+    <think><set name='domain'><star/></set></think>
+    <random>
+        <li>So, you like <get name='domain'/></li>
+        <li><get name='domain'/> is a very good domain.</li>
+        <li>Ok, <get name='domain'/> is a good domain</li>
+    </random>
+    </template>
+</category>
+<category>
+    <pattern>I AM INTERESTED IN *</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>INTERESTED IN <star/></srai></template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>INTERESTED IN <star/></srai></template>
+</category>
+
+<!-- Asking faculty name -->
+<category>
+    <pattern>NOT INTERESTED</pattern>
+    <that>WHAT DOMAIN</that>
+    <template>
+    <random>
+    <li>Then, let me know the name of the faculty you like?</li>
+    <li>Which faculty do you like, What is their name?</li>
+    </random></template>
+</category>
+<category>
+    <pattern>I DONT HAVE ANY</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>NOT INTERESTED</srai></template>
+</category>
+<category>
+    <pattern>I AM NOT INTERESTED IN A SPECIFIC DOMAIN</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>NOT INTERESTED</srai></template>
+</category>
+<category>
+    <pattern>I DONT KNOW</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>NOT INTERESTED</srai></template>
+</category>
+
+<!-- Answering faculty name -->
+<category>
+    <pattern>*</pattern>
+    <that>* FACULTY *</that>
+    <template>You like <star/></template>
+</category>
+<category>
+    <pattern>I LIKE *</pattern>
+    <that>* FACULTY *</that>
+    <template><srai><star/></srai></template>
+</category>
+<category>
+    <pattern>* IS MY FAVOURITE *</pattern>
+    <that>* FACULTY *</that>
+    <template><srai><star/></srai></template>
+</category>
+
+    
+</aiml>
