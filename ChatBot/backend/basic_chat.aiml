@@ -29,9 +29,9 @@
     <pattern>I AM FINE</pattern>
     <template>
     <random>
-        <li>glad to know that.</li>
-        <li>OK</li>
-        <li>Good to know that.</li>
+        <li>glad to know that. How can I help you?</li>
+        <li>OK. How can I help you?</li>
+        <li>Good to know that. Do you need any help</li>
     </random>
     </template>
 </category>
@@ -76,12 +76,15 @@
     <pattern>INTERESTED IN *</pattern>
     <that>WHAT DOMAIN</that>
     <template>
-    <think><set name='domain'><star/></set></think>
+    <think>
+        <set name='domain'><star/></set>
+    </think>
     <random>
         <li>So, you like <get name='domain'/></li>
         <li><get name='domain'/> is a very good domain.</li>
         <li>Ok, <get name='domain'/> is a good domain</li>
     </random>
+
     </template>
 </category>
 <category>
@@ -125,7 +128,9 @@
 <category>
     <pattern>*</pattern>
     <that>* FACULTY *</that>
-    <template>You like <star/></template>
+    <template>
+    <think><set name='faculty'><star/></set></think>You like <star/>
+    </template>
 </category>
 <category>
     <pattern>I LIKE *</pattern>
