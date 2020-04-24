@@ -1,5 +1,7 @@
 def populate_db(conn):
     conn.execute('''DROP TABLE  IF EXISTS FACULTY;''')
+    conn.execute('''DROP TABLE  IF EXISTS COURSES;''')
+    conn.execute('''DROP TABLE  IF EXISTS TRENDING;''')
 
     conn.execute('''CREATE TABLE IF NOT EXISTS FACULTY
                 (FID INT PRIMARY KEY     NOT NULL,
@@ -72,20 +74,53 @@ def populate_db(conn):
                 (11, "Manufacturing"),
                 (12, "Mechanical");''')
 
+def domain_mapping(domain):
+    domain = domain.lower()
+    if "data" in domain:
+        return "data science"
+    if "software" in domain:
+        return "software engineering"
+    if "math" in domain:
+        return "math"
+    if ("image" in domain) or ("processing" in domain):
+        return "image processing"
+    if ("electronic" in domain) or  ("electronic" in domain):
+        return "communications"
+    if ("electrical" in domain):
+        return "eee"
+    if ("manu" in domain):
+        return "manufacturing"
+    if ("civil" in domain):
+        return "civil"
+    if ("chem" in domain):
+        return "chemistry"
+    if ("bio" in domain):
+        return "bio technology"
+    if ("cloud" in domain):
+        return "cloud technology"
+    if ("security" in domain):
+        return "computer security"
+
+    return ""
+    
 
 def show_table(conn, table_name):
+    res = ""
     curr = conn.cursor()
     curr.execute(f"SELECT * FROM {table_name};")
     tab = curr.fetchall()
     for row in tab:
         print(row)
+        res += (row[0] + ", " + row[1] + ", " + row[2] + "\n")
+    # return res
+    return tab
 
 def get_coursebydomain(conn, domain):
     curr = conn.cursor()
     curr.execute(f"SELECT DOMAIN FROM TRENDING;")
     tab = curr.fetchall()
     for row in tab:
-        if (domain.lower() in row[0].lower()) or (row[0].lower() in domain.lower()):
+        if (domain.lower() in row[0].lower()) or (row[0].lower() in domain.lower()) or (domain_mapping(domain) in row[0].lower()):
             domain = row[0].lower()
 
     course = ""
@@ -98,6 +133,7 @@ def get_coursebydomain(conn, domain):
     return course
 
 def get_profbycourse(conn, course):
+    prof = ""
     curr = conn.cursor()
     curr.execute(f"SELECT NAME FROM FACULTY, COURSES WHERE FACULTY.FID=COURSES.FID AND COURSES.COURSE_NAME='{course}';")
     tab = curr.fetchall()

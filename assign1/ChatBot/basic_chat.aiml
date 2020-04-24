@@ -1,5 +1,22 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
+
+<!-- Greetings -->
+<category>
+    <pattern>HI</pattern>
+    <template>
+    <random>
+        <li>Hi</li>
+        <li>Hello. How are you?</li>
+        <li>How are you?</li>
+    </random>
+    </template>
+</category>
+<category>
+    <pattern>HELLO</pattern>
+    <template><srai>HI</srai></template>
+</category>
+
 <!-- Asking name -->
 <category>
     <pattern>MY NAME IS *</pattern>
@@ -93,6 +110,11 @@
     <template><srai>INTERESTED IN <star/></srai></template>
 </category>
 <category>
+    <pattern>I LIKE *</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>INTERESTED IN <star/></srai></template>
+</category>
+<category>
     <pattern>*</pattern>
     <that>WHAT DOMAIN</that>
     <template><srai>INTERESTED IN <star/></srai></template>
@@ -120,6 +142,11 @@
 </category>
 <category>
     <pattern>I DONT KNOW</pattern>
+    <that>WHAT DOMAIN</that>
+    <template><srai>NOT INTERESTED</srai></template>
+</category>
+<category>
+    <pattern>I DO NOT KNOW</pattern>
     <that>WHAT DOMAIN</that>
     <template><srai>NOT INTERESTED</srai></template>
 </category>
