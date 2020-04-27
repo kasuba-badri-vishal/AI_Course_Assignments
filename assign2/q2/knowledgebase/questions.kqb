@@ -1,0 +1,4 @@
+have_symptom($symptom, $ans)
+    Do you have $symptom?
+    ---
+    $ans = yn
