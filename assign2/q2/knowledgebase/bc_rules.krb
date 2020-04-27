@@ -6,10 +6,6 @@ has_disease0
 		questions.have_symptom("dizziness", True)
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("fall", True)
-		questions.have_symptom("syncope", True)
-		questions.have_symptom("vertigo", True)
-		questions.have_symptom("sweat^sweating increased", True)
-		questions.have_symptom("palpitation", True)
 
 has_disease1
 	use has_disease1()
@@ -19,10 +15,6 @@ has_disease1
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("pain chest", True)
 		questions.have_symptom("asthenia", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("orthopnea", True)
-		questions.have_symptom("rale", True)
-		questions.have_symptom("sweat^sweating increased", True)
 
 has_disease2
 	use has_disease2()
@@ -32,10 +24,6 @@ has_disease2
 		questions.have_symptom("hallucinations auditory", True)
 		questions.have_symptom("feeling hopeless", True)
 		questions.have_symptom("weepiness", True)
-		questions.have_symptom("sleeplessness", True)
-		questions.have_symptom("motor retardation", True)
-		questions.have_symptom("irritable mood", True)
-		questions.have_symptom("blackout", True)
 
 has_disease3
 	use has_disease3()
@@ -45,10 +33,6 @@ has_disease3
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("hypokinesia", True)
 		questions.have_symptom("sweat^sweating increased", True)
-		questions.have_symptom("pressure chest", True)
-		questions.have_symptom("dyspnea on exertion", True)
-		questions.have_symptom("orthopnea", True)
-		questions.have_symptom("chest tightness", True)
 
 has_disease4
 	use has_disease4()
@@ -58,10 +42,6 @@ has_disease4
 		questions.have_symptom("decreased translucency", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("rale", True)
-		questions.have_symptom("productive cough", True)
-		questions.have_symptom("pleuritic pain", True)
-		questions.have_symptom("yellow sputum", True)
-		questions.have_symptom("breath sounds decreased", True)
 
 has_disease5
 	use has_disease5()
@@ -71,8 +51,6 @@ has_disease5
 		questions.have_symptom("jugular venous distention", True)
 		questions.have_symptom("rale", True)
 		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("cough", True)
-		questions.have_symptom("wheezing", True)
 
 has_disease6
 	use has_disease6()
@@ -82,9 +60,6 @@ has_disease6
 		questions.have_symptom("speech slurred", True)
 		questions.have_symptom("facial paresis", True)
 		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("unresponsiveness", True)
-		questions.have_symptom("seizure", True)
-		questions.have_symptom("numbness", True)
 
 has_disease7
 	use has_disease7()
@@ -94,10 +69,6 @@ has_disease7
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("chest tightness", True)
 		questions.have_symptom("non-productive cough", True)
-		questions.have_symptom("pleuritic pain", True)
-		questions.have_symptom("productive cough", True)
-		questions.have_symptom("symptom aggravating factors", True)
-		questions.have_symptom("distress respiratory", True)
 
 has_disease8
 	use has_disease8()
@@ -107,10 +78,6 @@ has_disease8
 		questions.have_symptom("sweat^sweating increased", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("st segment depression", True)
-		questions.have_symptom("hypokinesia", True)
-		questions.have_symptom("angina pectoris", True)
-		questions.have_symptom("pressure chest", True)
-		questions.have_symptom("t wave inverted", True)
 
 has_disease9
 	use has_disease9()
@@ -120,10 +87,6 @@ has_disease9
 		questions.have_symptom("sweat^sweating increased", True)
 		questions.have_symptom("nonsmoker", True)
 		questions.have_symptom("pressure chest", True)
-		questions.have_symptom("syncope", True)
-		questions.have_symptom("numbness", True)
-		questions.have_symptom("chest discomfort", True)
-		questions.have_symptom("shortness of breath", True)
 
 has_disease10
 	use has_disease10()
@@ -133,10 +96,6 @@ has_disease10
 		questions.have_symptom("hematuria", True)
 		questions.have_symptom("renal angle tenderness", True)
 		questions.have_symptom("lethargy", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("hyponatremia", True)
-		questions.have_symptom("hemodynamically stable", True)
-		questions.have_symptom("distress respiratory", True)
 
 has_disease11
 	use has_disease11()
@@ -146,10 +105,6 @@ has_disease11
 		questions.have_symptom("monoclonal", True)
 		questions.have_symptom("ecchymosis", True)
 		questions.have_symptom("tumor cell invasion", True)
-		questions.have_symptom("haemorrhage", True)
-		questions.have_symptom("pallor", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("fatigue", True)
 
 has_disease12
 	use has_disease12()
@@ -159,10 +114,6 @@ has_disease12
 		questions.have_symptom("cough", True)
 		questions.have_symptom("dyspnea", True)
 		questions.have_symptom("distress respiratory", True)
-		questions.have_symptom("sputum purulent", True)
-		questions.have_symptom("hypoxemia", True)
-		questions.have_symptom("hypercapnia", True)
-		questions.have_symptom("patient non compliance", True)
 
 has_disease13
 	use has_disease13()
@@ -172,10 +123,6 @@ has_disease13
 		questions.have_symptom("unresponsiveness", True)
 		questions.have_symptom("lethargy", True)
 		questions.have_symptom("agitation", True)
-		questions.have_symptom("ecchymosis", True)
-		questions.have_symptom("syncope", True)
-		questions.have_symptom("rale", True)
-		questions.have_symptom("unconscious state", True)
 
 has_disease14
 	use has_disease14()
@@ -185,10 +132,6 @@ has_disease14
 		questions.have_symptom("orthopnea", True)
 		questions.have_symptom("rale", True)
 		questions.have_symptom("urgency of micturition", True)
-		questions.have_symptom("ascites", True)
-		questions.have_symptom("guaiac positive", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("apyrexial", True)
 
 has_disease15
 	use has_disease15()
@@ -198,10 +141,6 @@ has_disease15
 		questions.have_symptom("lethargy", True)
 		questions.have_symptom("speech slurred", True)
 		questions.have_symptom("fall", True)
-		questions.have_symptom("consciousness clear", True)
-		questions.have_symptom("mental status changes", True)
-		questions.have_symptom("asterixis", True)
-		questions.have_symptom("unconscious state", True)
 
 has_disease16
 	use has_disease16()
@@ -211,10 +150,6 @@ has_disease16
 		questions.have_symptom("numbness of hand", True)
 		questions.have_symptom("general discomfort", True)
 		questions.have_symptom("drowsiness", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("nonsmoker", True)
-		questions.have_symptom("non-productive cough", True)
-		questions.have_symptom("polydypsia", True)
 
 has_disease17
 	use has_disease17()
@@ -224,10 +159,6 @@ has_disease17
 		questions.have_symptom("drowsiness^sleepy", True)
 		questions.have_symptom("hyponatremia", True)
 		questions.have_symptom("fall", True)
-		questions.have_symptom("unsteady gait", True)
-		questions.have_symptom("polyuria", True)
-		questions.have_symptom("hypotension", True)
-		questions.have_symptom("difficulty", True)
 
 has_disease18
 	use has_disease18()
@@ -237,10 +168,6 @@ has_disease18
 		questions.have_symptom("suicidal", True)
 		questions.have_symptom("sleeplessness", True)
 		questions.have_symptom("feeling hopeless", True)
-		questions.have_symptom("irritable mood", True)
-		questions.have_symptom("tremor", True)
-		questions.have_symptom("blackout", True)
-		questions.have_symptom("weepiness", True)
 
 has_disease19
 	use has_disease19()
@@ -250,10 +177,6 @@ has_disease19
 		questions.have_symptom("lesion", True)
 		questions.have_symptom("cushingoid facies^cushingoid habitus", True)
 		questions.have_symptom("emphysematous change", True)
-		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("ascites", True)
-		questions.have_symptom("hoarseness", True)
-		questions.have_symptom("thicken", True)
 
 has_disease20
 	use has_disease20()
@@ -263,10 +186,6 @@ has_disease20
 		questions.have_symptom("spontaneous rupture of membranes", True)
 		questions.have_symptom("cough", True)
 		questions.have_symptom("nan", True)
-		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("chill", True)
-		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("pleuritic pain", True)
 
 has_disease21
 	use has_disease21()
@@ -276,10 +195,6 @@ has_disease21
 		questions.have_symptom("swelling", True)
 		questions.have_symptom("redness", True)
 		questions.have_symptom("fever", True)
-		questions.have_symptom("abscess bacterial", True)
-		questions.have_symptom("patient non compliance", True)
-		questions.have_symptom("hypesthesia", True)
-		questions.have_symptom("hyperacusis", True)
 
 has_disease22
 	use has_disease22()
@@ -289,10 +204,6 @@ has_disease22
 		questions.have_symptom("burning sensation", True)
 		questions.have_symptom("hyponatremia", True)
 		questions.have_symptom("satiety early", True)
-		questions.have_symptom("throbbing sensation quality", True)
-		questions.have_symptom("chest tightness", True)
-		questions.have_symptom("sensory discomfort", True)
-		questions.have_symptom("presence of q wave", True)
 
 has_disease23
 	use has_disease23()
@@ -302,10 +213,6 @@ has_disease23
 		questions.have_symptom("hypotension", True)
 		questions.have_symptom("tachypnea", True)
 		questions.have_symptom("chill", True)
-		questions.have_symptom("lethargy", True)
-		questions.have_symptom("bradycardia", True)
-		questions.have_symptom("breech presentation", True)
-		questions.have_symptom("cyanosis", True)
 
 has_disease24
 	use has_disease24()
@@ -315,10 +222,6 @@ has_disease24
 		questions.have_symptom("ecchymosis", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("pain in lower limb", True)
-		questions.have_symptom("cardiomegaly", True)
-		questions.have_symptom("rale", True)
-		questions.have_symptom("erythema", True)
-		questions.have_symptom("hypotension", True)
 
 has_disease25
 	use has_disease25()
@@ -328,10 +231,6 @@ has_disease25
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("hypotension", True)
 		questions.have_symptom("nausea", True)
-		questions.have_symptom("lightheadedness", True)
-		questions.have_symptom("unwell", True)
-		questions.have_symptom("mental status changes", True)
-		questions.have_symptom("anorexia", True)
 
 has_disease26
 	use has_disease26()
@@ -341,10 +240,6 @@ has_disease26
 		questions.have_symptom("pain chest", True)
 		questions.have_symptom("hematuria", True)
 		questions.have_symptom("tumor cell invasion", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("anosmia", True)
-		questions.have_symptom("thicken", True)
-		questions.have_symptom("metastatic lesion", True)
 
 has_disease27
 	use has_disease27()
@@ -354,10 +249,6 @@ has_disease27
 		questions.have_symptom("tachypnea", True)
 		questions.have_symptom("hematocrit decreased", True)
 		questions.have_symptom("pain chest", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("pleuritic pain", True)
-		questions.have_symptom("neck stiffness", True)
-		questions.have_symptom("yellow sputum", True)
 
 has_disease28
 	use has_disease28()
@@ -367,10 +258,6 @@ has_disease28
 		questions.have_symptom("aura", True)
 		questions.have_symptom("muscle twitch", True)
 		questions.have_symptom("drowsiness", True)
-		questions.have_symptom("tremor", True)
-		questions.have_symptom("unresponsiveness", True)
-		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("myoclonus", True)
 
 has_disease29
 	use has_disease29()
@@ -380,10 +267,6 @@ has_disease29
 		questions.have_symptom("hypokinesia", True)
 		questions.have_symptom("jugular venous distention", True)
 		questions.have_symptom("palpitation", True)
-		questions.have_symptom("pain chest", True)
-		questions.have_symptom("syncope", True)
-		questions.have_symptom("yellow sputum", True)
-		questions.have_symptom("rale", True)
 
 has_disease30
 	use has_disease30()
@@ -393,10 +276,6 @@ has_disease30
 		questions.have_symptom("hyperkalemia", True)
 		questions.have_symptom("oliguria", True)
 		questions.have_symptom("jugular venous distention", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("mental status changes", True)
-		questions.have_symptom("diarrhea", True)
 
 has_disease31
 	use has_disease31()
@@ -406,10 +285,6 @@ has_disease31
 		questions.have_symptom("lesion", True)
 		questions.have_symptom("tumor cell invasion", True)
 		questions.have_symptom("thicken", True)
-		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("hoarseness", True)
-		questions.have_symptom("general discomfort", True)
-		questions.have_symptom("metastatic lesion", True)
 
 has_disease32
 	use has_disease32()
@@ -419,10 +294,6 @@ has_disease32
 		questions.have_symptom("feeling suicidal", True)
 		questions.have_symptom("cough", True)
 		questions.have_symptom("ache", True)
-		questions.have_symptom("macerated skin", True)
-		questions.have_symptom("heavy feeling", True)
-		questions.have_symptom("hallucinations auditory", True)
-		questions.have_symptom("chill", True)
 
 has_disease33
 	use has_disease33()
@@ -432,10 +303,6 @@ has_disease33
 		questions.have_symptom("angina pectoris", True)
 		questions.have_symptom("unresponsiveness", True)
 		questions.have_symptom("hyperkalemia", True)
-		questions.have_symptom("sinus rhythm", True)
-		questions.have_symptom("labored breathing", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("sore to touch", True)
 
 has_disease34
 	use has_disease34()
@@ -445,10 +312,6 @@ has_disease34
 		questions.have_symptom("feeling suicidal", True)
 		questions.have_symptom("hallucinations visual", True)
 		questions.have_symptom("motor retardation", True)
-		questions.have_symptom("blackout", True)
-		questions.have_symptom("verbal auditory hallucinations", True)
-		questions.have_symptom("feeling hopeless", True)
-		questions.have_symptom("irritable mood", True)
 
 has_disease35
 	use has_disease35()
@@ -458,10 +321,6 @@ has_disease35
 		questions.have_symptom("palpitation", True)
 		questions.have_symptom("presence of q wave", True)
 		questions.have_symptom("photopsia", True)
-		questions.have_symptom("sweat^sweating increased", True)
-		questions.have_symptom("chest discomfort", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("giddy mood", True)
 
 has_disease36
 	use has_disease36()
@@ -471,10 +330,6 @@ has_disease36
 		questions.have_symptom("suicidal", True)
 		questions.have_symptom("irritable mood", True)
 		questions.have_symptom("agitation", True)
-		questions.have_symptom("has religious belief", True)
-		questions.have_symptom("disturbed family", True)
-		questions.have_symptom("hallucinations auditory", True)
-		questions.have_symptom("verbal auditory hallucinations", True)
 
 has_disease37
 	use has_disease37()
@@ -484,10 +339,6 @@ has_disease37
 		questions.have_symptom("snore", True)
 		questions.have_symptom("pain chest", True)
 		questions.have_symptom("r wave feature", True)
-		questions.have_symptom("has religious belief", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("fatigue^tired", True)
-		questions.have_symptom("overweight", True)
 
 has_disease38
 	use has_disease38()
@@ -497,10 +348,6 @@ has_disease38
 		questions.have_symptom("angina pectoris", True)
 		questions.have_symptom("pressure chest", True)
 		questions.have_symptom("chest discomfort", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("sinus rhythm", True)
-		questions.have_symptom("bradycardia", True)
 
 has_disease39
 	use has_disease39()
@@ -510,10 +357,6 @@ has_disease39
 		questions.have_symptom("splenomegaly", True)
 		questions.have_symptom("pruritus", True)
 		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("tumor cell invasion", True)
-		questions.have_symptom("distended abdomen", True)
-		questions.have_symptom("lesion", True)
-		questions.have_symptom("hemodynamically stable", True)
 
 has_disease40
 	use has_disease40()
@@ -523,10 +366,6 @@ has_disease40
 		questions.have_symptom("macule", True)
 		questions.have_symptom("lesion", True)
 		questions.have_symptom("redness", True)
-		questions.have_symptom("headache", True)
-		questions.have_symptom("apyrexial", True)
-		questions.have_symptom("arthralgia", True)
-		questions.have_symptom("swelling", True)
 
 has_disease41
 	use has_disease41()
@@ -536,10 +375,6 @@ has_disease41
 		questions.have_symptom("blackout", True)
 		questions.have_symptom("orthostasis", True)
 		questions.have_symptom("orthopnea", True)
-		questions.have_symptom("night sweat", True)
-		questions.have_symptom("distress respiratory", True)
-		questions.have_symptom("anorexia", True)
-		questions.have_symptom("dysarthria", True)
 
 has_disease42
 	use has_disease42()
@@ -549,10 +384,6 @@ has_disease42
 		questions.have_symptom("hypocalcemia result", True)
 		questions.have_symptom("oliguria", True)
 		questions.have_symptom("hemodynamically stable", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("hypothermia, natural", True)
-		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("haemorrhage", True)
 
 has_disease43
 	use has_disease43()
@@ -562,10 +393,6 @@ has_disease43
 		questions.have_symptom("asymptomatic", True)
 		questions.have_symptom("hypokinesia", True)
 		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("syncope", True)
-		questions.have_symptom("thicken", True)
-		questions.have_symptom("left atrial hypertrophy", True)
-		questions.have_symptom("palpitation", True)
 
 has_disease44
 	use has_disease44()
@@ -575,10 +402,6 @@ has_disease44
 		questions.have_symptom("sleeplessness", True)
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("syncope", True)
-		questions.have_symptom("swelling", True)
-		questions.have_symptom("atypia", True)
-		questions.have_symptom("general unsteadiness", True)
-		questions.have_symptom("shortness of breath", True)
 
 has_disease45
 	use has_disease45()
@@ -588,10 +411,6 @@ has_disease45
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("chest tightness", True)
 		questions.have_symptom("fever", True)
-		questions.have_symptom("throat sore", True)
-		questions.have_symptom("productive cough", True)
-		questions.have_symptom("hepatosplenomegaly", True)
-		questions.have_symptom("night sweat", True)
 
 has_disease46
 	use has_disease46()
@@ -601,10 +420,6 @@ has_disease46
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("aphagia", True)
 		questions.have_symptom("seizure", True)
-		questions.have_symptom("speech slurred", True)
-		questions.have_symptom("focal seizures", True)
-		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("abnormal sensation", True)
 
 has_disease47
 	use has_disease47()
@@ -614,10 +429,6 @@ has_disease47
 		questions.have_symptom("hirsutism", True)
 		questions.have_symptom("sniffle", True)
 		questions.have_symptom("distended abdomen", True)
-		questions.have_symptom("vertigo", True)
-		questions.have_symptom("numbness of hand", True)
-		questions.have_symptom("bradykinesia", True)
-		questions.have_symptom("pain", True)
 
 has_disease48
 	use has_disease48()
@@ -627,10 +438,6 @@ has_disease48
 		questions.have_symptom("facial paresis", True)
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("neck stiffness", True)
-		questions.have_symptom("vertigo", True)
-		questions.have_symptom("numbness", True)
-		questions.have_symptom("lightheadedness", True)
-		questions.have_symptom("extrapyramidal sign", True)
 
 has_disease49
 	use has_disease49()
@@ -640,10 +447,6 @@ has_disease49
 		questions.have_symptom("agitation", True)
 		questions.have_symptom("irritable mood", True)
 		questions.have_symptom("verbal auditory hallucinations", True)
-		questions.have_symptom("feeling suicidal", True)
-		questions.have_symptom("suicidal", True)
-		questions.have_symptom("terrify", True)
-		questions.have_symptom("neologism", True)
 
 has_disease50
 	use has_disease50()
@@ -653,10 +456,6 @@ has_disease50
 		questions.have_symptom("nausea", True)
 		questions.have_symptom("pain", True)
 		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("stool color yellow", True)
-		questions.have_symptom("rigor - temperature-associated observation", True)
-		questions.have_symptom("apyrexial", True)
-		questions.have_symptom("sore to touch", True)
 
 has_disease51
 	use has_disease51()
@@ -666,10 +465,6 @@ has_disease51
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("urge incontinence", True)
 		questions.have_symptom("unconscious state", True)
-		questions.have_symptom("aura", True)
-		questions.have_symptom("moody", True)
-		questions.have_symptom("fear of falling", True)
-		questions.have_symptom("tremor", True)
 
 has_disease52
 	use has_disease52()
@@ -679,10 +474,6 @@ has_disease52
 		questions.have_symptom("dyspnea on exertion", True)
 		questions.have_symptom("jugular venous distention", True)
 		questions.have_symptom("rale", True)
-		questions.have_symptom("pain chest", True)
-		questions.have_symptom("palpitation", True)
-		questions.have_symptom("sweat^sweating increased", True)
-		questions.have_symptom("weight gain", True)
 
 has_disease53
 	use has_disease53()
@@ -692,10 +483,6 @@ has_disease53
 		questions.have_symptom("hyperventilation", True)
 		questions.have_symptom("excruciating pain", True)
 		questions.have_symptom("gag", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("posturing", True)
-		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("sore to touch", True)
 
 has_disease54
 	use has_disease54()
@@ -705,10 +492,6 @@ has_disease54
 		questions.have_symptom("asthenia", True)
 		questions.have_symptom("polymyalgia", True)
 		questions.have_symptom("passed stones", True)
-		questions.have_symptom("pleuritic pain", True)
-		questions.have_symptom("guaiac positive", True)
-		questions.have_symptom("rale", True)
-		questions.have_symptom("breath sounds decreased", True)
 
 has_disease55
 	use has_disease55()
@@ -718,10 +501,6 @@ has_disease55
 		questions.have_symptom("rale", True)
 		questions.have_symptom("tachypnea", True)
 		questions.have_symptom("orthopnea", True)
-		questions.have_symptom("Heberden's node", True)
-		questions.have_symptom("jugular venous distention", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("sweat^sweating increased", True)
 
 has_disease56
 	use has_disease56()
@@ -731,10 +510,6 @@ has_disease56
 		questions.have_symptom("night sweat", True)
 		questions.have_symptom("splenomegaly", True)
 		questions.have_symptom("lesion", True)
-		questions.have_symptom("chill", True)
-		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("swelling", True)
-		questions.have_symptom("fever", True)
 
 has_disease57
 	use has_disease57()
@@ -744,10 +519,6 @@ has_disease57
 		questions.have_symptom("chest discomfort", True)
 		questions.have_symptom("systolic murmur", True)
 		questions.have_symptom("sciatica", True)
-		questions.have_symptom("angina pectoris", True)
-		questions.have_symptom("pain chest", True)
-		questions.have_symptom("frothy sputum", True)
-		questions.have_symptom("bradycardia", True)
 
 has_disease58
 	use has_disease58()
@@ -757,10 +528,6 @@ has_disease58
 		questions.have_symptom("paresthesia", True)
 		questions.have_symptom("retropulsion", True)
 		questions.have_symptom("erythema", True)
-		questions.have_symptom("difficulty", True)
-		questions.have_symptom("lesion", True)
-		questions.have_symptom("estrogen use", True)
-		questions.have_symptom("burning sensation", True)
 
 has_disease59
 	use has_disease59()
@@ -770,10 +537,6 @@ has_disease59
 		questions.have_symptom("irritable mood", True)
 		questions.have_symptom("verbal auditory hallucinations", True)
 		questions.have_symptom("patient non compliance", True)
-		questions.have_symptom("agitation", True)
-		questions.have_symptom("suicidal", True)
-		questions.have_symptom("worry", True)
-		questions.have_symptom("hallucinations visual", True)
 
 has_disease60
 	use has_disease60()
@@ -783,10 +546,6 @@ has_disease60
 		questions.have_symptom("dullness", True)
 		questions.have_symptom("red blotches", True)
 		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("dysuria", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("vomiting", True)
 
 has_disease61
 	use has_disease61()
@@ -796,10 +555,6 @@ has_disease61
 		questions.have_symptom("hyperkalemia", True)
 		questions.have_symptom("orthopnea", True)
 		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("drowsiness^sleepy", True)
-		questions.have_symptom("weight gain", True)
-		questions.have_symptom("hypokalemia", True)
-		questions.have_symptom("hypotension", True)
 
 has_disease62
 	use has_disease62()
@@ -809,10 +564,6 @@ has_disease62
 		questions.have_symptom("nausea", True)
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("polymyalgia", True)
-		questions.have_symptom("out of breath", True)
-		questions.have_symptom("pain chest", True)
-		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("gurgle", True)
 
 has_disease63
 	use has_disease63()
@@ -822,10 +573,6 @@ has_disease63
 		questions.have_symptom("prostate tender", True)
 		questions.have_symptom("fever", True)
 		questions.have_symptom("difficulty passing urine", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("swelling", True)
-		questions.have_symptom("apyrexial", True)
-		questions.have_symptom("erythema", True)
 
 has_disease64
 	use has_disease64()
@@ -835,10 +582,6 @@ has_disease64
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("disequilibrium", True)
 		questions.have_symptom("nausea", True)
-		questions.have_symptom("intoxication", True)
-		questions.have_symptom("haemorrhage", True)
-		questions.have_symptom("guaiac positive", True)
-		questions.have_symptom("pain", True)
 
 has_disease65
 	use has_disease65()
@@ -848,10 +591,6 @@ has_disease65
 		questions.have_symptom("flushing", True)
 		questions.have_symptom("unresponsiveness", True)
 		questions.have_symptom("indifferent mood", True)
-		questions.have_symptom("urinoma", True)
-		questions.have_symptom("vomiting", True)
-		questions.have_symptom("distended abdomen", True)
-		questions.have_symptom("hypoalbuminemia", True)
 
 has_disease66
 	use has_disease66()
@@ -861,10 +600,6 @@ has_disease66
 		questions.have_symptom("pain", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("snuffle", True)
-		questions.have_symptom("pain chest", True)
-		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("hepatosplenomegaly", True)
-		questions.have_symptom("green sputum", True)
 
 has_disease67
 	use has_disease67()
@@ -874,10 +609,6 @@ has_disease67
 		questions.have_symptom("wheezing", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("labored breathing", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("stuffy nose", True)
-		questions.have_symptom("non-productive cough", True)
-		questions.have_symptom("snuffle", True)
 
 has_disease68
 	use has_disease68()
@@ -887,10 +618,6 @@ has_disease68
 		questions.have_symptom("heavy legs", True)
 		questions.have_symptom("breath sounds decreased", True)
 		questions.have_symptom("neck stiffness", True)
-		questions.have_symptom("dyspnea on exertion", True)
-		questions.have_symptom("cyanosis", True)
-		questions.have_symptom("hypotension", True)
-		questions.have_symptom("left atrial hypertrophy", True)
 
 has_disease69
 	use has_disease69()
@@ -900,10 +627,6 @@ has_disease69
 		questions.have_symptom("dysarthria", True)
 		questions.have_symptom("painful swallowing", True)
 		questions.have_symptom("hoarseness", True)
-		questions.have_symptom("stridor", True)
-		questions.have_symptom("spasm", True)
-		questions.have_symptom("asthenia", True)
-		questions.have_symptom("dysdiadochokinesia", True)
 
 has_disease70
 	use has_disease70()
@@ -913,10 +636,6 @@ has_disease70
 		questions.have_symptom("redness", True)
 		questions.have_symptom("swelling", True)
 		questions.have_symptom("erythema", True)
-		questions.have_symptom("emphysematous change", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("hypokinesia", True)
-		questions.have_symptom("ascites", True)
 
 has_disease71
 	use has_disease71()
@@ -926,10 +645,6 @@ has_disease71
 		questions.have_symptom("posterior rhinorrhea", True)
 		questions.have_symptom("haemorrhage", True)
 		questions.have_symptom("tachypnea", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("pruritus", True)
-		questions.have_symptom("hypotension", True)
-		questions.have_symptom("fatigue", True)
 
 has_disease72
 	use has_disease72()
@@ -939,10 +654,6 @@ has_disease72
 		questions.have_symptom("incoherent", True)
 		questions.have_symptom("qt interval prolonged", True)
 		questions.have_symptom("lameness^claudication", True)
-		questions.have_symptom("unconscious state", True)
-		questions.have_symptom("clammy skin", True)
-		questions.have_symptom("polyuria", True)
-		questions.have_symptom("distress respiratory", True)
 
 has_disease73
 	use has_disease73()
@@ -952,10 +663,6 @@ has_disease73
 		questions.have_symptom("clonus", True)
 		questions.have_symptom("mental status changes", True)
 		questions.have_symptom("decreased translucency", True)
-		questions.have_symptom("unresponsiveness", True)
-		questions.have_symptom("extreme exhaustion", True)
-		questions.have_symptom("stupor", True)
-		questions.have_symptom("seizure", True)
 
 has_disease74
 	use has_disease74()
@@ -965,10 +672,6 @@ has_disease74
 		questions.have_symptom("green sputum", True)
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("nausea and vomiting", True)
-		questions.have_symptom("awakening early", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("chill", True)
 
 has_disease75
 	use has_disease75()
@@ -978,10 +681,6 @@ has_disease75
 		questions.have_symptom("abscess bacterial", True)
 		questions.have_symptom("heme positive", True)
 		questions.have_symptom("lightheadedness", True)
-		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("haemorrhage", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("projectile vomiting", True)
 
 has_disease76
 	use has_disease76()
@@ -991,10 +690,6 @@ has_disease76
 		questions.have_symptom("suicidal", True)
 		questions.have_symptom("motor retardation", True)
 		questions.have_symptom("weepiness", True)
-		questions.have_symptom("unable to concentrate", True)
-		questions.have_symptom("todd paralysis", True)
-		questions.have_symptom("worry", True)
-		questions.have_symptom("fatigue", True)
 
 has_disease77
 	use has_disease77()
@@ -1004,10 +699,6 @@ has_disease77
 		questions.have_symptom("yellow sputum", True)
 		questions.have_symptom("projectile vomiting", True)
 		questions.have_symptom("poor feeding", True)
-		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("abdominal tenderness", True)
-		questions.have_symptom("wheelchair bound", True)
-		questions.have_symptom("moan", True)
 
 has_disease78
 	use has_disease78()
@@ -1017,10 +708,6 @@ has_disease78
 		questions.have_symptom("stiffness", True)
 		questions.have_symptom("withdraw", True)
 		questions.have_symptom("agitation", True)
-		questions.have_symptom("hemiplegia", True)
-		questions.have_symptom("difficulty", True)
-		questions.have_symptom("unresponsiveness", True)
-		questions.have_symptom("syncope", True)
 
 has_disease79
 	use has_disease79()
@@ -1030,10 +717,6 @@ has_disease79
 		questions.have_symptom("welt", True)
 		questions.have_symptom("transaminitis", True)
 		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("ataxia", True)
-		questions.have_symptom("tinnitus", True)
-		questions.have_symptom("hydropneumothorax", True)
-		questions.have_symptom("superimposition", True)
 
 has_disease80
 	use has_disease80()
@@ -1043,10 +726,6 @@ has_disease80
 		questions.have_symptom("feeling strange", True)
 		questions.have_symptom("pustule", True)
 		questions.have_symptom("cushingoid facies^cushingoid habitus", True)
-		questions.have_symptom("decreased body weight", True)
-		questions.have_symptom("mood depressed", True)
-		questions.have_symptom("estrogen use", True)
-		questions.have_symptom("wheezing", True)
 
 has_disease81
 	use has_disease81()
@@ -1056,10 +735,6 @@ has_disease81
 		questions.have_symptom("haemorrhage", True)
 		questions.have_symptom("drowsiness^sleepy", True)
 		questions.have_symptom("absences finding", True)
-		questions.have_symptom("posturing", True)
-		questions.have_symptom("aura", True)
-		questions.have_symptom("tonic seizures", True)
-		questions.have_symptom("debilitation", True)
 
 has_disease82
 	use has_disease82()
@@ -1069,10 +744,6 @@ has_disease82
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("nausea", True)
 		questions.have_symptom("bradycardia", True)
-		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("cicatrisation", True)
-		questions.have_symptom("mediastinal shift", True)
 
 has_disease83
 	use has_disease83()
@@ -1082,10 +753,6 @@ has_disease83
 		questions.have_symptom("nightmare", True)
 		questions.have_symptom("rhonchus", True)
 		questions.have_symptom("consciousness clear", True)
-		questions.have_symptom("pin-point pupils", True)
-		questions.have_symptom("bedridden^bedridden", True)
-		questions.have_symptom("frail", True)
-		questions.have_symptom("tremor resting", True)
 
 has_disease84
 	use has_disease84()
@@ -1095,10 +762,6 @@ has_disease84
 		questions.have_symptom("decreased body weight", True)
 		questions.have_symptom("chill", True)
 		questions.have_symptom("headache", True)
-		questions.have_symptom("abdominal tenderness", True)
-		questions.have_symptom("patient non compliance", True)
-		questions.have_symptom("photophobia", True)
-		questions.have_symptom("night sweat", True)
 
 has_disease85
 	use has_disease85()
@@ -1108,10 +771,6 @@ has_disease85
 		questions.have_symptom("nausea and vomiting", True)
 		questions.have_symptom("awakening early", True)
 		questions.have_symptom("hydropneumothorax", True)
-		questions.have_symptom("superimposition", True)
-		questions.have_symptom("fatigability", True)
-		questions.have_symptom("tenesmus", True)
-		questions.have_symptom("pain", True)
 
 has_disease86
 	use has_disease86()
@@ -1121,7 +780,6 @@ has_disease86
 		questions.have_symptom("pain chest", True)
 		questions.have_symptom("fever", True)
 		questions.have_symptom("gravida 0", True)
-		questions.have_symptom("bleeding of vagina", True)
 
 has_disease87
 	use has_disease87()
@@ -1131,10 +789,6 @@ has_disease87
 		questions.have_symptom("abortion", True)
 		questions.have_symptom("intermenstrual heavy bleeding", True)
 		questions.have_symptom("muscle hypotonia^hypotonic", True)
-		questions.have_symptom("previous pregnancies 2", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("heartburn", True)
 
 has_disease88
 	use has_disease88()
@@ -1144,10 +798,6 @@ has_disease88
 		questions.have_symptom("unsteady gait", True)
 		questions.have_symptom("paresthesia", True)
 		questions.have_symptom("hyponatremia", True)
-		questions.have_symptom("agitation", True)
-		questions.have_symptom("unconscious state", True)
-		questions.have_symptom("burning sensation", True)
-		questions.have_symptom("lesion", True)
 
 has_disease89
 	use has_disease89()
@@ -1157,10 +807,6 @@ has_disease89
 		questions.have_symptom("metastatic lesion", True)
 		questions.have_symptom("pain neck", True)
 		questions.have_symptom("lung nodule", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("food intolerance", True)
-		questions.have_symptom("mass of body structure", True)
 
 has_disease90
 	use has_disease90()
@@ -1170,10 +816,6 @@ has_disease90
 		questions.have_symptom("constipation", True)
 		questions.have_symptom("general discomfort", True)
 		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("pain abdominal", True)
-		questions.have_symptom("urinary hesitation", True)
-		questions.have_symptom("dizzy spells", True)
-		questions.have_symptom("shooting pain", True)
 
 has_disease91
 	use has_disease91()
@@ -1183,10 +825,6 @@ has_disease91
 		questions.have_symptom("nausea", True)
 		questions.have_symptom("pain abdominal", True)
 		questions.have_symptom("milky", True)
-		questions.have_symptom("feeling strange", True)
-		questions.have_symptom("gurgle", True)
-		questions.have_symptom("nervousness", True)
-		questions.have_symptom("abdominal tenderness", True)
 
 has_disease92
 	use has_disease92()
@@ -1196,10 +834,6 @@ has_disease92
 		questions.have_symptom("myoclonus", True)
 		questions.have_symptom("tremor", True)
 		questions.have_symptom("phonophobia", True)
-		questions.have_symptom("rolling of eyes", True)
-		questions.have_symptom("sleepy", True)
-		questions.have_symptom("hirsutism", True)
-		questions.have_symptom("moody", True)
 
 has_disease93
 	use has_disease93()
@@ -1209,10 +843,6 @@ has_disease93
 		questions.have_symptom("unresponsiveness", True)
 		questions.have_symptom("productive cough", True)
 		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("tachypnea", True)
-		questions.have_symptom("hyperkalemia", True)
-		questions.have_symptom("hypokinesia", True)
-		questions.have_symptom("sinus rhythm", True)
 
 has_disease94
 	use has_disease94()
@@ -1222,10 +852,6 @@ has_disease94
 		questions.have_symptom("fever", True)
 		questions.have_symptom("gravida 0", True)
 		questions.have_symptom("pain", True)
-		questions.have_symptom("pruritus", True)
-		questions.have_symptom("mass in breast", True)
-		questions.have_symptom("vomiting", True)
-		questions.have_symptom("diarrhea", True)
 
 has_disease95
 	use has_disease95()
@@ -1235,10 +861,6 @@ has_disease95
 		questions.have_symptom("nausea", True)
 		questions.have_symptom("decreased body weight", True)
 		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("scleral icterus", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("myalgia", True)
-		questions.have_symptom("hyponatremia", True)
 
 has_disease96
 	use has_disease96()
@@ -1248,10 +870,6 @@ has_disease96
 		questions.have_symptom("lung nodule", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("haemoptysis", True)
-		questions.have_symptom("debilitation", True)
-		questions.have_symptom("gurgle", True)
-		questions.have_symptom("ache", True)
-		questions.have_symptom("rale", True)
 
 has_disease97
 	use has_disease97()
@@ -1261,10 +879,6 @@ has_disease97
 		questions.have_symptom("hypersomnia", True)
 		questions.have_symptom("feeling suicidal", True)
 		questions.have_symptom("blanch", True)
-		questions.have_symptom("hallucinations auditory", True)
-		questions.have_symptom("hallucinations visual", True)
-		questions.have_symptom("elation", True)
-		questions.have_symptom("verbal auditory hallucinations", True)
 
 has_disease98
 	use has_disease98()
@@ -1274,10 +888,6 @@ has_disease98
 		questions.have_symptom("transsexual", True)
 		questions.have_symptom("hallucinations auditory", True)
 		questions.have_symptom("irritable mood", True)
-		questions.have_symptom("sleeplessness", True)
-		questions.have_symptom("agitation", True)
-		questions.have_symptom("weepiness", True)
-		questions.have_symptom("mood depressed", True)
 
 has_disease99
 	use has_disease99()
@@ -1287,10 +897,6 @@ has_disease99
 		questions.have_symptom("lesion", True)
 		questions.have_symptom("paresis", True)
 		questions.have_symptom("tumor cell invasion", True)
-		questions.have_symptom("room spinning", True)
-		questions.have_symptom("haemorrhage", True)
-		questions.have_symptom("thicken", True)
-		questions.have_symptom("indifferent mood", True)
 
 has_disease100
 	use has_disease100()
@@ -1300,10 +906,6 @@ has_disease100
 		questions.have_symptom("dyspnea on exertion", True)
 		questions.have_symptom("coordination abnormal", True)
 		questions.have_symptom("myalgia", True)
-		questions.have_symptom("hypercapnia", True)
-		questions.have_symptom("clammy skin", True)
-		questions.have_symptom("has religious belief", True)
-		questions.have_symptom("room spinning", True)
 
 has_disease101
 	use has_disease101()
@@ -1313,10 +915,6 @@ has_disease101
 		questions.have_symptom("decreased stool caliber", True)
 		questions.have_symptom("nausea and vomiting", True)
 		questions.have_symptom("hunger", True)
-		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("dizziness", True)
-		questions.have_symptom("hyponatremia", True)
-		questions.have_symptom("clonus", True)
 
 has_disease102
 	use has_disease102()
@@ -1326,10 +924,6 @@ has_disease102
 		questions.have_symptom("apyrexial", True)
 		questions.have_symptom("no known drug allergies", True)
 		questions.have_symptom("pain", True)
-		questions.have_symptom("productive cough", True)
-		questions.have_symptom("throat sore", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("chest tightness", True)
 
 has_disease103
 	use has_disease103()
@@ -1339,9 +933,6 @@ has_disease103
 		questions.have_symptom("facial paresis", True)
 		questions.have_symptom("aphagia", True)
 		questions.have_symptom("muscle twitch", True)
-		questions.have_symptom("paralyse", True)
-		questions.have_symptom("low back pain", True)
-		questions.have_symptom("charleyhorse", True)
 
 has_disease104
 	use has_disease104()
@@ -1351,10 +942,6 @@ has_disease104
 		questions.have_symptom("angina pectoris", True)
 		questions.have_symptom("cough", True)
 		questions.have_symptom("unhappy", True)
-		questions.have_symptom("labored breathing", True)
-		questions.have_symptom("hypothermia, natural", True)
-		questions.have_symptom("dyspnea", True)
-		questions.have_symptom("hematocrit decreased", True)
 
 has_disease105
 	use has_disease105()
@@ -1364,10 +951,6 @@ has_disease105
 		questions.have_symptom("urgency of micturition", True)
 		questions.have_symptom("hematuria", True)
 		questions.have_symptom("vomiting", True)
-		questions.have_symptom("chill", True)
-		questions.have_symptom("diarrhea", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("pain abdominal", True)
 
 has_disease106
 	use has_disease106()
@@ -1377,10 +960,6 @@ has_disease106
 		questions.have_symptom("myalgia", True)
 		questions.have_symptom("apyrexial", True)
 		questions.have_symptom("night sweat", True)
-		questions.have_symptom("flare", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("orthopnea", True)
-		questions.have_symptom("abscess bacterial", True)
 
 has_disease107
 	use has_disease107()
@@ -1390,10 +969,6 @@ has_disease107
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("hemodynamically stable", True)
 		questions.have_symptom("cardiomegaly", True)
-		questions.have_symptom("hypotension", True)
-		questions.have_symptom("sputum purulent", True)
-		questions.have_symptom("facial paresis", True)
-		questions.have_symptom("pain", True)
 
 has_disease108
 	use has_disease108()
@@ -1403,10 +978,6 @@ has_disease108
 		questions.have_symptom("suicidal", True)
 		questions.have_symptom("hoard", True)
 		questions.have_symptom("irritable mood", True)
-		questions.have_symptom("feeling hopeless", True)
-		questions.have_symptom("feeling suicidal", True)
-		questions.have_symptom("neologism", True)
-		questions.have_symptom("seizure", True)
 
 has_disease109
 	use has_disease109()
@@ -1416,9 +987,6 @@ has_disease109
 		questions.have_symptom("haemoptysis", True)
 		questions.have_symptom("cough", True)
 		questions.have_symptom("hypercapnia", True)
-		questions.have_symptom("soft tissue swelling", True)
-		questions.have_symptom("prostatism", True)
-		questions.have_symptom("agitation", True)
 
 has_disease110
 	use has_disease110()
@@ -1428,10 +996,6 @@ has_disease110
 		questions.have_symptom("hyponatremia", True)
 		questions.have_symptom("verbally abusive behavior", True)
 		questions.have_symptom("feeling suicidal", True)
-		questions.have_symptom("unresponsiveness", True)
-		questions.have_symptom("worry", True)
-		questions.have_symptom("drowsiness^sleepy", True)
-		questions.have_symptom("hallucinations auditory", True)
 
 has_disease111
 	use has_disease111()
@@ -1441,10 +1005,6 @@ has_disease111
 		questions.have_symptom("night sweat", True)
 		questions.have_symptom("apyrexial", True)
 		questions.have_symptom("lesion", True)
-		questions.have_symptom("snuffle", True)
-		questions.have_symptom("chill", True)
-		questions.have_symptom("cough", True)
-		questions.have_symptom("monoclonal", True)
 
 has_disease112
 	use has_disease112()
@@ -1454,9 +1014,6 @@ has_disease112
 		questions.have_symptom("para 1", True)
 		questions.have_symptom("bradycardia", True)
 		questions.have_symptom("breech presentation", True)
-		questions.have_symptom("cushingoid facies^cushingoid habitus", True)
-		questions.have_symptom("cough", True)
-		questions.have_symptom("myalgia", True)
 
 has_disease113
 	use has_disease113()
@@ -1466,10 +1023,6 @@ has_disease113
 		questions.have_symptom("pleuritic pain", True)
 		questions.have_symptom("snuffle", True)
 		questions.have_symptom("throat sore", True)
-		questions.have_symptom("malaise", True)
-		questions.have_symptom("debilitation", True)
-		questions.have_symptom("symptom aggravating factors", True)
-		questions.have_symptom("chill", True)
 
 has_disease114
 	use has_disease114()
@@ -1479,10 +1032,6 @@ has_disease114
 		questions.have_symptom("agitation", True)
 		questions.have_symptom("suicidal", True)
 		questions.have_symptom("homelessness", True)
-		questions.have_symptom("prostatism", True)
-		questions.have_symptom("lethargy", True)
-		questions.have_symptom("seizure", True)
-		questions.have_symptom("muscle twitch", True)
 
 has_disease115
 	use has_disease115()
@@ -1492,10 +1041,6 @@ has_disease115
 		questions.have_symptom("hypertonicity", True)
 		questions.have_symptom("shortness of breath", True)
 		questions.have_symptom("hypoalbuminemia", True)
-		questions.have_symptom("pruritus", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("hemodynamically stable", True)
-		questions.have_symptom("facial paresis", True)
 
 has_disease116
 	use has_disease116()
@@ -1505,10 +1050,6 @@ has_disease116
 		questions.have_symptom("pain abdominal", True)
 		questions.have_symptom("Murphy's sign", True)
 		questions.have_symptom("flatulence", True)
-		questions.have_symptom("colic abdominal", True)
-		questions.have_symptom("pain", True)
-		questions.have_symptom("ascites", True)
-		questions.have_symptom("diarrhea", True)
 
 has_disease117
 	use has_disease117()
@@ -1518,10 +1059,6 @@ has_disease117
 		questions.have_symptom("prodrome", True)
 		questions.have_symptom("vomiting", True)
 		questions.have_symptom("nausea", True)
-		questions.have_symptom("myalgia", True)
-		questions.have_symptom("hyponatremia", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("general discomfort", True)
 
 has_disease118
 	use has_disease118()
@@ -1531,8 +1068,6 @@ has_disease118
 		questions.have_symptom("dizziness", True)
 		questions.have_symptom("numbness", True)
 		questions.have_symptom("nausea", True)
-		questions.have_symptom("fever", True)
-		questions.have_symptom("splenomegaly", True)
 
 has_disease119
 	use has_disease119()
@@ -1542,8 +1077,6 @@ has_disease119
 		questions.have_symptom("haemorrhage", True)
 		questions.have_symptom("fatigability", True)
 		questions.have_symptom("cushingoid facies^cushingoid habitus", True)
-		questions.have_symptom("stool color yellow", True)
-		questions.have_symptom("colic abdominal", True)
 
 has_disease120
 	use has_disease120()
@@ -1553,10 +1086,6 @@ has_disease120
 		questions.have_symptom("pain abdominal", True)
 		questions.have_symptom("pain", True)
 		questions.have_symptom("cushingoid facies^cushingoid habitus", True)
-		questions.have_symptom("ascites", True)
-		questions.have_symptom("thicken", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("diarrhea", True)
 
 has_disease121
 	use has_disease121()
@@ -1566,10 +1095,6 @@ has_disease121
 		questions.have_symptom("alcohol binge episode", True)
 		questions.have_symptom("pressure chest", True)
 		questions.have_symptom("scar tissue", True)
-		questions.have_symptom("cardiovascular finding^cardiovascular event", True)
-		questions.have_symptom("orthostasis", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("t wave inverted", True)
 
 has_disease122
 	use has_disease122()
@@ -1579,10 +1104,6 @@ has_disease122
 		questions.have_symptom("air fluid level", True)
 		questions.have_symptom("catching breath", True)
 		questions.have_symptom("abdominal tenderness", True)
-		questions.have_symptom("nausea", True)
-		questions.have_symptom("sore to touch", True)
-		questions.have_symptom("flatulence", True)
-		questions.have_symptom("diarrhea", True)
 
 has_disease123
 	use has_disease123()
@@ -1592,10 +1113,6 @@ has_disease123
 		questions.have_symptom("large-for-dates fetus", True)
 		questions.have_symptom("para 1", True)
 		questions.have_symptom("vomiting", True)
-		questions.have_symptom("lung nodule", True)
-		questions.have_symptom("breech presentation", True)
-		questions.have_symptom("shortness of breath", True)
-		questions.have_symptom("decreased body weight", True)
 
 has_disease124
 	use has_disease124()
@@ -1605,10 +1122,6 @@ has_disease124
 		questions.have_symptom("feeling hopeless", True)
 		questions.have_symptom("agitation", True)
 		questions.have_symptom("hallucinations auditory", True)
-		questions.have_symptom("irritable mood", True)
-		questions.have_symptom("sleeplessness", True)
-		questions.have_symptom("neologism", True)
-		questions.have_symptom("homicidal thoughts", True)
 
 has_disease125
 	use has_disease125()
@@ -1618,9 +1131,6 @@ has_disease125
 		questions.have_symptom("enuresis", True)
 		questions.have_symptom("patient non compliance", True)
 		questions.have_symptom("feeling hopeless", True)
-		questions.have_symptom("hallucinations visual", True)
-		questions.have_symptom("bedridden^bedridden", True)
-		questions.have_symptom("prostatism", True)
 
 has_disease126
 	use has_disease126()
