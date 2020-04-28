@@ -83,7 +83,15 @@
     <template><srai>HELP IN ELECTIVES</srai></template>
 </category>
 <category>
-    <pattern>I NEED HELP IN CHOOSING ELECTIVES</pattern>
+    <pattern>CAN YOU HELP ME IN SELECTING ELECTIVES THIS SEMESTER</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern>I NEED HELP * ELECTIVES</pattern>
+    <template><srai>HELP IN ELECTIVES</srai></template>
+</category>
+<category>
+    <pattern># HELP # ELECTIVES</pattern>
     <template><srai>HELP IN ELECTIVES</srai></template>
 </category>
 
