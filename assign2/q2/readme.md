@@ -1,5 +1,15 @@
+### Medical Expert Diagnostic System
+- The python library <bold>pyke</bold> has been used as the expert system shell for this assignment.
+ 
+- run it using
 
-### Dataset Construction
+    - <code>python main.py</code>
+
+- Example of a diagnosis.
+
+<img src='example.jpg'>
+
+### KnowledgeBase Construction
 - The dataset (dataset.csv) has been scraped from the internet and preprocessed.
 It contains diseases in the first row, number of cases of that disease in 2nd row and
 symptoms in the third row.
@@ -8,20 +18,22 @@ symptoms in the third row.
 
 - The final dataset contains a total of 127 diseases, symptoms and their treatments.
 
-### Disease-Symptom Knowledge Graph Construction
+- This data has been used to construct .krb files (used by pyke) which contains rules for all diseases and conditions. The script create_rule_file does this job.
+
+- This rule base is used by pyke's inference engine, to know all the details
+required (like asking if the user has a symptom) to do diagnosis and reports the disease or condition, the user is most likey to have.
+
+- It also outputs the treatment to be taken for the disease/condition.
+
+### Disease-Symptom graph
 - The file kg.py contains python script that uses the data collected to form
 a knowledge graph using the python module networkx. 
 - Graphs for less number of diseases (5 and 10) has been plotted to easily show the knowledge graph.
 - Knowledge graph for the whole set has also been plotted. 
-- They are also saved as pickle files. plots are saved in graphs/ folder.
 
 <img src='./graphs/Knowledge_Graph_5_diseases.png' style="height:400px; width:400px;">
 <img src='./graphs/Knowledge_Graph_all_diseases.png' style="height:400px; width:400px;">
 
-### QA Diagnostic System
-- The Diagnostic system takes a list of symptoms seperated by commas.
-- First it tries to use the knowledge graph to find exact matching disease with the given symptoms. This has been done by finding the neighbors of a disease and matching them with the symptoms the user has given as input.
-- If no exact match is found, it outputs the next best match according to the number of symptoms matched.
 
 
 

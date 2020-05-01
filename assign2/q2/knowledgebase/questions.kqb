@@ -1,0 +1,14 @@
+have_symptom($symptom, $ans)
+    Do you have $symptom?
+    ---
+    $ans = yn
+
+ask_name($ans)
+    What is your name?
+    ---
+    $ans = string
+
+ask_age($ans)
+    How old are you?
+    ---
+    $ans = integer(0-135)

@@ -1,69 +1,48 @@
+from pyke import knowledge_base, knowledge_engine, ask_tty
 import pandas as pd
-import numpy as np
-import networkx as nx
-import matplotlib.pyplot as plt
-from difflib import get_close_matches
+from create_rule_file import create_bc_rules
+import shutil
 
-df = pd.read_csv('cleaned_dataset.csv', encoding='utf-8')
+RULE_FILE = "bc_rules"
 
-edge_list = []
+def check_disease(disease, i):
+    if i>=df.shape[0]:
+        return
+    try:
+        vals, plans = my_engine.prove_1_goal(f"{RULE_FILE}.has_disease{i}()")
+        print(f"\nDiagnosis: You could have {disease}.")
+        print(f"\nTREATMENT: {df.iloc[i, 3]}\n")
+        print(f'''Rule used: IF {" ^ ".join(df.iloc[i,2].split(';'))} THEN {disease}''')
 
-diseases = {}
-symptoms = {}
+        return vals, plans
+    except knowledge_engine.CanNotProve:
+        if i+1<df.shape[0]:
+            check_disease(df.iloc[i+1, 0], i+1)
+        else:
+            pass
 
-for i in range(df.shape[0]):
-    for symptom in df.iloc[i, 2].split(';'):
-        edge_list.append((symptom, df.iloc[i, 0]))
-        diseases[df.iloc[i, 0]] = 1
-        symptoms[symptom] = 1
-
-G = nx.DiGraph()
-
-G.add_edges_from(edge_list)
-G1 = G.reverse()
-
-def filter_symptoms(symptom):
-    return get_close_matches(symptom, symptoms)
-
-def count_common_items(a, b):
-    count = 0
-    for x in a:
-        if x in b:
-            count += 1
-
-    return count
-
-def find_disease(user_symptoms):
-    common_counts = {}
-    exact_match = ""
-    for d in diseases.keys():
-        common_counts[d] = count_common_items(G1.neighbors(d), user_symptoms)
-        if len(user_symptoms)==len(common_counts):
-            exact_match = d
-    return common_counts, exact_match
-
-while True:
-    ans = input("\n\nList your symptoms seperated by commas: ")
-    user_symptoms = ans.split(',')
-    user_symptoms = [x.strip(' ').strip("'") for x in user_symptoms]
+if __name__=="__main__":
+    df = pd.read_csv('./trimmed_dataset.csv', encoding='utf-8')
+    RULE_FILE = create_bc_rules(df)
+    try:
+        shutil.rmtree('./compiled_krb')
+    except:
+        pass
     
-    common_counts, exact_match = find_disease(user_symptoms)
+    my_engine = knowledge_engine.engine('./knowledgebase')
+    my_engine.ask_module = ask_tty
+    my_engine.reset()
 
-    results = sorted(list(common_counts.items()), key = lambda x:x[1],reverse=True)
+    print('''\n\n*****Welcome to Medical Diagnosis System******
+    I am your personal Diagnosis Expert System. Please answer the following questions''')
 
-    filtered_results = []
-    for x in results:
-        if x[1]>0: filtered_results.append(x)
+    my_engine.activate('ask_rules')
+    my_engine.activate(RULE_FILE)
 
-    # print(f"Diagnosis: {filtered_results}")
-    # for x,y in filtered_results:
-    #     print(f"{x}: {y}")
+    vals, plans = my_engine.prove_1_goal(f"ask_rules.get_name($name)")
+    print(vals['name'])
+    
+    # vals, plans = my_engine.prove_1_goal(f"ask_rules.get_age($age)")
+    # print(vals['age'])
 
-    if exact_match!="":
-        print(f"\nDiagnosis: ", exact_match)
-        print(f"\nfound using rule: ")
-        print("IF", ' ^ '.join(G1.neighbors(exact_match)), "THEN", exact_match)
-        
-        print("\nTREATMENT: ", df[df.iloc[:, 0]==exact_match].iloc[0,3])
-    else:
-        print("No exact matches found")
+    check_disease(df.iloc[0,0],0)

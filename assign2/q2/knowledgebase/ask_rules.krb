@@ -1,0 +1,9 @@
+get_age
+    use get_age($age)
+    when
+        questions.ask_age($age)
+
+get_name
+    use get_name($name)
+    when
+        questions.ask_name($name)
