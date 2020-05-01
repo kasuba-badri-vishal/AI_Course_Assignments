@@ -79,7 +79,7 @@ int main() {
     cout << "Number of Obstacles : ";
     int obs;
     cin >> obs;
-    cout << "Enter the Obstacle location\n";
+    cout << "Enter the Obstacles location\n";
     int x,y;
     for(int i=0;i<obs;i++) {
         cin >> x >> y;
@@ -90,12 +90,13 @@ int main() {
     cin >> start_x >> start_y;
     cout << "Enter the End location : ";
     cin >> end_x >> end_y;
-    for(int i=0;i<n;i++) {
-        for(int j=0;j<m;j++) {
-            cout << grid[i][j] << " ";
-        }
-        cout << "\n";
-    }
+    // for(int i=0;i<n;i++) {
+    //     for(int j=0;j<m;j++) {
+    //         cout << grid[i][j] << " ";
+    //     }
+    //     cout << "\n";
+    // }
+    cout << "\n";
     stack <pair<int,int> > s;
     int c = 1;
     DFS(start_x,start_y,end_x,end_y,grid,s,c);
