@@ -17,4 +17,4 @@ P(sendQuarintine = true / Infected = false , Fly_in_person = true , status_healt
 P(sendQuarintine = true / Infected = false , Fly_in_person = false , status_health = true) = 0.6
 P(sendQuarintine = true / Infected = false , Fly_in_person = false , status_health = false) = 0.1
 
-Hospitalized patient's area is also considerd as Quarintine
+Hospitalized patient's area is also considerd as Quarintine, so infected is also Quarintined
