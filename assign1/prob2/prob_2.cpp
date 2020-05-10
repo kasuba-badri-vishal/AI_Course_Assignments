@@ -71,7 +71,14 @@ void DFS(int x1,int y1,int x2,int y2,vector<vector<bool>> grid,stack<pair<int,in
 }
 
 int main() {
-
+    
+    // ios::sync_with_stdio(0);
+    // cin.tie(0);
+    // cout.tie(0);
+    // #ifndef ONLINE_JUDGE
+    //     freopen("input.txt", "r", stdin);
+    //     freopen("output.txt", "w", stdout);
+    // #endif
     int n,m;
     cout << "Enter the dimensions of grid : ";
     cin >> n >> m;
