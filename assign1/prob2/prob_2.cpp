@@ -39,6 +39,7 @@ bool LEFT(int x1,int y1, vector<vector<bool>> grid) {
 }
 
 void DFS(int x1,int y1,int x2,int y2,vector<vector<bool>> grid,stack<pair<int,int>> s,int c) {
+    // cout << "trying" << "\n";
     if(x1==x2 && y1==y2) {
         cout << "(" << x1 << "," << y1 << ",X)\n";
         cout << "Above is the direction found using DFS backtracking\n";
@@ -52,6 +53,7 @@ void DFS(int x1,int y1,int x2,int y2,vector<vector<bool>> grid,stack<pair<int,in
         else if(UP(x1,y1,grid)) { cout <<"U)->"; c=2; s.push(make_pair(x1,y1)); DFS(x1-1,y1,x2,y2,grid,s,c); }
         else if(LEFT(x1,y1,grid)) { cout <<"L)->"; c=4; s.push(make_pair(x1,y1));DFS(x1,y1-1,x2,y2,grid,s,c); }
         else {
+                if(s.empty()) {cout << "\nNo path found\n"; return;}
                 pair<int,int> temp = s.top();
                 s.pop();
                 pair<int,int> temp2 = s.top(); 
@@ -72,9 +74,6 @@ void DFS(int x1,int y1,int x2,int y2,vector<vector<bool>> grid,stack<pair<int,in
 
 int main() {
     
-    // ios::sync_with_stdio(0);
-    // cin.tie(0);
-    // cout.tie(0);
     // #ifndef ONLINE_JUDGE
     //     freopen("input.txt", "r", stdin);
     //     freopen("output.txt", "w", stdout);
@@ -97,12 +96,6 @@ int main() {
     cin >> start_x >> start_y;
     cout << "Enter the End location : ";
     cin >> end_x >> end_y;
-    // for(int i=0;i<n;i++) {
-    //     for(int j=0;j<m;j++) {
-    //         cout << grid[i][j] << " ";
-    //     }
-    //     cout << "\n";
-    // }
     cout << "\n";
     stack <pair<int,int> > s;
     int c = 1;
